@@ -1,0 +1,9 @@
+import os
+
+MASTER_DB_CONNECTION = os.environ.get("MASTER_DB_CONNECTION")
+MASTER_DB_HOST = os.environ.get("MASTER_DB_HOST")
+MASTER_DB_PORT = os.environ.get("MASTER_DB_PORT")
+MASTER_DB_DATABASE = os.environ.get("MASTER_DB_DATABASE")
+MASTER_DB_USERNAME = os.environ.get("MASTER_DB_USERNAME")
+MASTER_DB_PASSWORD = os.environ.get("MASTER_DB_PASSWORD")
+MASTER_DB_DRIVER = os.environ.get("MASTER_DB_DRIVER")
